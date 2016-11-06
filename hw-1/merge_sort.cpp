@@ -4,82 +4,112 @@
 using namespace std;
 
 
-int* merge_sort_serial(int* arr, int size, int offset=0){
+
+void shuffle(int* arr, int size){
+	if (size < 2){
+		return;
+	}
+
+    srand(time(NULL));
+    for (int i = 0; i < size - 1; i++){
+      int j = i + rand() / (RAND_MAX / (size - i) + 1);
+      int t = arr[j];
+
+      arr[j] = arr[i];
+      arr[i] = t;
+    }
+}
+
+
+int* create_random_array(int size){
+	int* arr = new int[size];
+	for (int i=0; i<size; i++){
+		arr[i] = i;
+	}
+
+	shuffle(arr, size);
+	return arr;
+}
+
+bool is_sorted_asc(int* arr, int size){
+	if (size < 2){
+		return true;
+	}
+
+	int prev = arr[0];
+	for (int i=1; i<size; i++){
+		if (arr[i] < prev){
+			return false;
+		}
+		prev = arr[i];
+
+	}
+	return true;
+}
+
+
+
+int* merge_arrays(int* l_arr, int* r_arr, int l_size, int r_size){
+	int* result = new int[l_size + r_size];
+	
+	int result_idx, l_idx, r_idx;
+	result_idx = l_idx = r_idx = 0;
+
+	while ((l_idx < l_size) && (r_idx < r_size)){
+		if (l_arr[l_idx] < r_arr[r_idx]){
+			result[result_idx++] = l_arr[l_idx++];
+		}
+		else{
+			result[result_idx++] = r_arr[r_idx++];
+		}
+	}
+
+	while (l_idx < l_size){
+		result[result_idx++] = l_arr[l_idx++];
+	}
+
+	while (r_idx < r_size){
+		result[result_idx++] = r_arr[r_idx++];
+	}
+
+	return result;
+}
+
+int* merge_sort_serial(int* arr, int size){
 	if (size < 2){
 		return arr;
 	}
 
-	int* result = new int[size];
-
 	int mid_idx = size / 2;
+	// cout << "size:"<<size <<" mid_idx:" <<mid_idx<<endl;
+	int* l_arr = merge_sort_serial(arr, mid_idx);
+	int* r_arr = merge_sort_serial(arr + mid_idx, size - mid_idx);
 
-	int l_len = mid_idx;
-	int r_len = size - mid_idx;
-
-	cout << "mid_idx:" << mid_idx << " l_len:" << l_len << " r_len:" << r_len <<endl;
-	int* l_array = merge_sort_serial(arr, l_len, 0);
-	cout << "Left ok" << endl;
-	int* r_array = merge_sort_serial(arr, r_len, mid_idx);
-	cout << "Right ok" << endl;
-
-	for (int i =0; i< l_len; i++){
-		cout << l_array[i] << ",";
-	}
-	cout << endl << "----" << endl;
-
-	for (int i =0; i< r_len - mid_idx; i++){
-		cout << r_array[i] << ",";
-	}
-	cout << endl << "----" << endl;
-
-	int l_idx = 0;
-	int r_idx = 0;
-
-	int result_idx = 0;
-
-	while ((l_idx < l_len) && (r_idx < r_len)){
-		if (l_array[l_idx] < r_array[r_idx]){
-            result[result_idx] = l_array[l_idx];
-            l_idx += 1;
-        }
-        else{
-            result[result_idx] = r_array[r_idx];
-            r_idx += 1;
-        }
-        result_idx += 1;
-	}
-    /*
-	if (l_idx == l_len){
-		for (int idx = r_idx; idx < r_len; idx++){
-			result[result_idx] = r_array[idx];
-			result_idx += 1;
-		}
-	}
-    else {
-        for (int idx = l_idx; idx < l_len; idx++){
-			result[result_idx] = l_array[idx];
-			result_idx += 1;
-		}
-    }*/
-    return result;
+	return merge_arrays(l_arr, r_arr, mid_idx, size - mid_idx);
 }
 
 
-int main(){
+int main(){/*
 	int* array = new int[5];
 	array[3] = 10;
 	array[2] = 23;
 	array[1] = 25;
 	array[0] = -100;
-	array[4] = -200;
-	auto res = merge_sort_serial(array, 5);
-	for (int i =0; i< 5; i++){
+	array[4] = -5;*/
+	int n=20;
+	int* arr = create_random_array(n);
+	for (int i =0; i<n; i++){
+		cout << arr[i] << ",";
+	}
+	cout << endl;
+
+	int* res = merge_sort_serial(arr, n);
+	if (!is_sorted_asc(res, n)){
+		cout << "[FAIL] Array is'nt sorted" << endl;
+	}
+	for (int i =0; i<n; i++){
 		cout << res[i] << ",";
 	}
 	cout << endl;
-	/*
-	srand (time(NULL));
-	cout << "###" << rand() % 100 + 1;*/
-
 	return 0;
 }
