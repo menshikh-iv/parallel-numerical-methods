@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <sys/time.h>
+#include <omp.h>
 
 using namespace std;
 
@@ -87,7 +88,7 @@ int* merge_sort_serial(int* arr, int size){
 }
 
 
-int* merge_sort_parallel(int* arr, int size){
+int* merge_sort_parallel(int* arr, int size, int threads){
 	if (size < 2){
 		return arr;
 	}
@@ -96,13 +97,19 @@ int* merge_sort_parallel(int* arr, int size){
 	int* l_arr;
 	int* r_arr;
 
-	#pragma omp parallel sections
-	{
-		#pragma omp section
-		l_arr = merge_sort_serial(arr, mid_idx);
+	if ( threads == 1) {
+        l_arr = merge_sort_serial(arr, mid_idx);
+        r_arr = merge_sort_serial(arr + mid_idx, size - mid_idx);
+    }
+    else{
+		#pragma omp parallel sections
+		{
+			#pragma omp section
+			l_arr = merge_sort_parallel(arr, mid_idx, threads/2);
 
-		#pragma omp section
-		r_arr = merge_sort_serial(arr + mid_idx, size - mid_idx);
+			#pragma omp section
+			r_arr = merge_sort_parallel(arr + mid_idx, size - mid_idx, threads - threads/2);
+		}
 	}
 
 	return merge_arrays(l_arr, r_arr, mid_idx, size - mid_idx);
@@ -112,7 +119,7 @@ int* merge_sort_parallel(int* arr, int size){
 
 
 int main(){
-	int n = 5000000;
+	int n = 10000;
 	int* arr = create_random_array(n);
 
 	struct timeval start_s, end_s;
@@ -129,9 +136,18 @@ int main(){
 	cout << "Serial version with n=" << n << " time=" << sec_s << endl;
 
 
+	int num_threads;
+	#pragma omp parallel
+	{
+		#pragma omp master
+		{
+			num_threads = omp_get_num_threads();
+		}
+	}
+	
 	struct timeval start_p, end_p;
 	gettimeofday(&start_p, NULL);
-	int* res_p = merge_sort_parallel(arr, n);
+	int* res_p = merge_sort_parallel(arr, n, num_threads);
 	gettimeofday(&end_p, NULL);
 	if (!is_sorted_asc(res_p, n)){
 		cout << "[FAIL] Array is'nt sorted" << endl;
@@ -140,6 +156,6 @@ int main(){
 	double sec_p = ((end_p.tv_sec  - start_p.tv_sec) * 1000000u +
 					 end_p.tv_usec - start_p.tv_usec) / 1.e6;
 
-	cout << "Parallel version with n=" << n << " time=" << sec_p << endl;
+	cout << "Parallel version with n=" << n << " n_treads=" << num_threads << " time=" << sec_p << endl;
 	return 0;
 }
