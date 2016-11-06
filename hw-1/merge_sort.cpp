@@ -1,23 +1,22 @@
 #include <iostream>
 #include <stdlib.h>
+#include <sys/time.h>
 
 using namespace std;
-
-
 
 void shuffle(int* arr, int size){
 	if (size < 2){
 		return;
 	}
 
-    srand(time(NULL));
-    for (int i = 0; i < size - 1; i++){
-      int j = i + rand() / (RAND_MAX / (size - i) + 1);
-      int t = arr[j];
+	srand(time(NULL));
+	for (int i = 0; i < size - 1; i++){
+	  int j = i + rand() / (RAND_MAX / (size - i) + 1);
+	  int t = arr[j];
 
-      arr[j] = arr[i];
-      arr[i] = t;
-    }
+	  arr[j] = arr[i];
+	  arr[i] = t;
+	}
 }
 
 
@@ -81,7 +80,6 @@ int* merge_sort_serial(int* arr, int size){
 	}
 
 	int mid_idx = size / 2;
-	// cout << "size:"<<size <<" mid_idx:" <<mid_idx<<endl;
 	int* l_arr = merge_sort_serial(arr, mid_idx);
 	int* r_arr = merge_sort_serial(arr + mid_idx, size - mid_idx);
 
@@ -89,27 +87,59 @@ int* merge_sort_serial(int* arr, int size){
 }
 
 
-int main(){/*
-	int* array = new int[5];
-	array[3] = 10;
-	array[2] = 23;
-	array[1] = 25;
-	array[0] = -100;
-	array[4] = -5;*/
-	int n=20;
-	int* arr = create_random_array(n);
-	for (int i =0; i<n; i++){
-		cout << arr[i] << ",";
+int* merge_sort_parallel(int* arr, int size){
+	if (size < 2){
+		return arr;
 	}
-	cout << endl;
 
-	int* res = merge_sort_serial(arr, n);
-	if (!is_sorted_asc(res, n)){
+	int mid_idx = size / 2;
+	int* l_arr;
+	int* r_arr;
+
+	#pragma omp parallel sections
+	{
+		#pragma omp section
+		l_arr = merge_sort_serial(arr, mid_idx);
+
+		#pragma omp section
+		r_arr = merge_sort_serial(arr + mid_idx, size - mid_idx);
+	}
+
+	return merge_arrays(l_arr, r_arr, mid_idx, size - mid_idx);
+}
+
+
+
+
+int main(){
+	int n = 5000000;
+	int* arr = create_random_array(n);
+
+	struct timeval start_s, end_s;
+	gettimeofday(&start_s, NULL);
+	int* res_s = merge_sort_serial(arr, n);
+	gettimeofday(&end_s, NULL);
+
+	double sec_s = ((end_s.tv_sec  - start_s.tv_sec) * 1000000u +
+					 end_s.tv_usec - start_s.tv_usec) / 1.e6;
+	if (!is_sorted_asc(res_s, n)){
 		cout << "[FAIL] Array is'nt sorted" << endl;
 	}
-	for (int i =0; i<n; i++){
-		cout << res[i] << ",";
+
+	cout << "Serial version with n=" << n << " time=" << sec_s << endl;
+
+
+	struct timeval start_p, end_p;
+	gettimeofday(&start_p, NULL);
+	int* res_p = merge_sort_parallel(arr, n);
+	gettimeofday(&end_p, NULL);
+	if (!is_sorted_asc(res_p, n)){
+		cout << "[FAIL] Array is'nt sorted" << endl;
 	}
-	cout << endl;
+
+	double sec_p = ((end_p.tv_sec  - start_p.tv_sec) * 1000000u +
+					 end_p.tv_usec - start_p.tv_usec) / 1.e6;
+
+	cout << "Parallel version with n=" << n << " time=" << sec_p << endl;
 	return 0;
 }
