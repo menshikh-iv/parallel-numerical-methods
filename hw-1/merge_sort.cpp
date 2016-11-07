@@ -53,10 +53,6 @@ void merge_arrays(int* arr, int size, int* tmp){
     int l_idx = 0;
     int r_idx = size / 2;
     int res_idx = 0;
-    
-    int i1 = 0;
-    int i2 = size / 2;
-    int it = 0;
 
     while(l_idx < size/2 && r_idx < size) {
         if (arr[l_idx] < arr[r_idx]) {
@@ -122,65 +118,80 @@ void merge_sort_parallel(int* arr, int size, int threads, int* tmp){
             merge_sort_parallel(arr + mid_idx, size - mid_idx, threads - threads/2, tmp + mid_idx);
         }
     }
-
     merge_arrays(arr, size, tmp);
 }
 
 
-
-
 int main(){
-    int n = 10000000;
-    int* arr_1 = create_random_array(n);
-    int* arr_2 = new int[n];
-    for (int i = 0; i < n; i++){
-        arr_2[i] = arr_1[i];
-    }
+    omp_set_nested(1);
+    omp_set_dynamic(1);
 
-    int* tmp_1 = new int[n];
-    int* tmp_2 = new int[n];
-    for (int i = 0; i < n; i++){
-        tmp_1[i] = tmp_2[i] = 0;
-    }
+    for (int exponent = 8; exponent <= 28; exponent++){
+        int n = (1 << exponent);
 
-    struct timeval start_s, end_s;
-    gettimeofday(&start_s, NULL);
-    merge_sort_serial(arr_1, n, tmp_1);
-    gettimeofday(&end_s, NULL);
+        for (int repeat = 1; repeat <= 5; repeat++){
+            int* arr_canonical = create_random_array(n);
+            int* arr_s = new int[n];
+            int* arr_p = new int[n];
+            for (int i = 0; i < n; i++){
+                arr_s[i] = arr_canonical[i];
+            }
 
-    double sec_s = ((end_s.tv_sec  - start_s.tv_sec) * 1000000u +
-                     end_s.tv_usec - start_s.tv_usec) / 1.e6;
-    if (!is_sorted_asc(arr_1, n)){
-        cout << "[FAIL] Array is'nt sorted" << endl;
-    }
+            int* tmp_s = new int[n];
+            int* tmp_p = new int[n];
+            for (int i = 0; i < n; i++){
+                tmp_s[i] = 0;
+            }
 
-    cout << "Serial version with n=" << n << " time=" << sec_s << endl;
-    
+            struct timeval start_s, end_s;
+            gettimeofday(&start_s, NULL);
+            merge_sort_serial(arr_s, n, tmp_s);
+            gettimeofday(&end_s, NULL);
 
-    int num_threads;
-    #pragma omp parallel
-    {
-        #pragma omp master
-        {
-            num_threads = omp_get_num_threads();
+            double sec_s = ((end_s.tv_sec  - start_s.tv_sec) * 1000000u +
+                             end_s.tv_usec - start_s.tv_usec) / 1.e6;
+            
+            if (!is_sorted_asc(arr_s, n)){
+                cout << "[FAIL-SERIAL] Array is'nt sorted" << endl;
+                return 1;
+            }
+
+            cout << "{\"type\": \"serial\", \"exponent\": " <<  exponent << ", \"repeat\": " << repeat <<", \"sec\": " << sec_s << "}" << endl;
+
+
+            for (int num_threads = 2; num_threads <= 8; num_threads++){
+                omp_set_num_threads(num_threads);
+
+                for (int i = 0; i < n; i++){
+                    tmp_p[i] = 0;
+                }
+
+                for (int i = 0; i < n; i++){
+                    arr_p[i] = arr_canonical[i];
+                }
+
+
+                struct timeval start_p, end_p;
+                gettimeofday(&start_p, NULL);
+                merge_sort_parallel(arr_p, n, num_threads, tmp_p);
+                gettimeofday(&end_p, NULL);
+
+                double sec_p = ((end_p.tv_sec  - start_p.tv_sec) * 1000000u +
+                                 end_p.tv_usec - start_p.tv_usec) / 1.e6;
+
+                if (!is_sorted_asc(arr_p, n)){
+                    cout << "[FAIL-PARALLEL] Array is'nt sorted" << endl;
+                    return 1;
+                }
+
+                cout << "{\"type\": \"parallel\", \"exponent\": " <<  exponent << ", \"num_threads\": " << num_threads <<", \"repeat\": " << repeat <<", \"sec\": " << sec_p << "}" << endl;
+            }
+
+            delete[] arr_canonical;
+            delete[] arr_s;
+            delete[] arr_p;
+            delete[] tmp_s;
+            delete[] tmp_p;
         }
     }
-    omp_set_nested(1);
-
-    
-    
-    struct timeval start_p, end_p;
-    gettimeofday(&start_p, NULL);
-    merge_sort_parallel(arr_2, n, num_threads, tmp_2);
-    gettimeofday(&end_p, NULL);
-    if (!is_sorted_asc(arr_2, n)){
-        cout << "[FAIL] Array is'nt sorted" << endl;
-    }
-
-    double sec_p = ((end_p.tv_sec  - start_p.tv_sec) * 1000000u +
-                     end_p.tv_usec - start_p.tv_usec) / 1.e6;
-
-    cout << "Parallel version with n=" << n << " n_treads=" << num_threads << " time=" << sec_p << endl;
-    
-    return 0;
 }
