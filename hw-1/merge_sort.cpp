@@ -85,6 +85,7 @@ void merge_sort_serial(int* arr, int size, int* tmp){
             arr[0] = arr[1];
             arr[1] = curr;
         }
+        return;
     }
 
     int mid_idx = size / 2;
@@ -195,3 +196,4 @@ int main(){
         }
     }
 }
+    
