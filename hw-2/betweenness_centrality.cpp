@@ -163,7 +163,6 @@ bool test_correct_parallel(unordered_map<int, vector<int>>& graph){
 
 
 int main(){
-    omp_set_dynamic(1);
     srand (static_cast <unsigned> (time(0)));
 
     for (int n = 500; n <= 5000; n += 500){
@@ -185,9 +184,9 @@ int main(){
 
 
             for (int num_threads = 2; num_threads <= 8; num_threads++){
+                omp_set_dynamic(0);
                 omp_set_num_threads(num_threads);
                 fill_n(btw, n, 0.);
-
 
                 struct timeval start_p, end_p;
                 gettimeofday(&start_p, NULL);

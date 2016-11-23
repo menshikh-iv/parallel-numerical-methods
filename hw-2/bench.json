@@ -1,240 +1,240 @@
-{"type": "serial", "n": 500, "p": 0.0400802, "repeat": 0, "sec": 0.708292}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 2, "repeat": 0, "sec": 0.786715}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 3, "repeat": 0, "sec": 0.363138}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 4, "repeat": 0, "sec": 0.251084}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 5, "repeat": 0, "sec": 0.189589}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 6, "repeat": 0, "sec": 0.20825}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 7, "repeat": 0, "sec": 0.179466}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 8, "repeat": 0, "sec": 0.154296}
-{"type": "serial", "n": 500, "p": 0.0400802, "repeat": 1, "sec": 0.682301}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 2, "repeat": 1, "sec": 0.670109}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 3, "repeat": 1, "sec": 0.358048}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 4, "repeat": 1, "sec": 0.246308}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 5, "repeat": 1, "sec": 0.194253}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 6, "repeat": 1, "sec": 0.208966}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 7, "repeat": 1, "sec": 0.177319}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 8, "repeat": 1, "sec": 0.153637}
-{"type": "serial", "n": 500, "p": 0.0400802, "repeat": 2, "sec": 0.670355}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 2, "repeat": 2, "sec": 0.671142}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 3, "repeat": 2, "sec": 0.360561}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 4, "repeat": 2, "sec": 0.248946}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 5, "repeat": 2, "sec": 0.247156}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 6, "repeat": 2, "sec": 0.205422}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 7, "repeat": 2, "sec": 0.177921}
-{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 8, "repeat": 2, "sec": 0.152513}
-{"type": "serial", "n": 1000, "p": 0.02002, "repeat": 0, "sec": 2.62791}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 2, "repeat": 0, "sec": 2.61267}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 3, "repeat": 0, "sec": 1.39203}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 4, "repeat": 0, "sec": 0.95716}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 5, "repeat": 0, "sec": 0.743279}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 6, "repeat": 0, "sec": 0.754834}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 7, "repeat": 0, "sec": 0.685323}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 8, "repeat": 0, "sec": 0.598375}
-{"type": "serial", "n": 1000, "p": 0.02002, "repeat": 1, "sec": 2.62665}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 2, "repeat": 1, "sec": 2.61277}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 3, "repeat": 1, "sec": 1.39119}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 4, "repeat": 1, "sec": 0.956793}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 5, "repeat": 1, "sec": 0.743811}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 6, "repeat": 1, "sec": 0.804007}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 7, "repeat": 1, "sec": 0.691104}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 8, "repeat": 1, "sec": 0.596002}
-{"type": "serial", "n": 1000, "p": 0.02002, "repeat": 2, "sec": 2.60337}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 2, "repeat": 2, "sec": 2.79819}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 3, "repeat": 2, "sec": 1.38721}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 4, "repeat": 2, "sec": 0.958158}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 5, "repeat": 2, "sec": 0.741976}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 6, "repeat": 2, "sec": 0.807725}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 7, "repeat": 2, "sec": 0.687408}
-{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 8, "repeat": 2, "sec": 0.601193}
-{"type": "serial", "n": 1500, "p": 0.0133422, "repeat": 0, "sec": 5.55105}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 2, "repeat": 0, "sec": 5.5526}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 3, "repeat": 0, "sec": 2.96242}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 4, "repeat": 0, "sec": 2.03422}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 5, "repeat": 0, "sec": 1.57034}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 6, "repeat": 0, "sec": 1.61413}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 7, "repeat": 0, "sec": 1.39694}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 8, "repeat": 0, "sec": 1.27258}
-{"type": "serial", "n": 1500, "p": 0.0133422, "repeat": 1, "sec": 5.68726}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 2, "repeat": 1, "sec": 5.54413}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 3, "repeat": 1, "sec": 2.91115}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 4, "repeat": 1, "sec": 2.00108}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 5, "repeat": 1, "sec": 1.55148}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 6, "repeat": 1, "sec": 1.51662}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 7, "repeat": 1, "sec": 1.44471}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 8, "repeat": 1, "sec": 1.27202}
-{"type": "serial", "n": 1500, "p": 0.0133422, "repeat": 2, "sec": 5.50178}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 2, "repeat": 2, "sec": 5.52711}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 3, "repeat": 2, "sec": 2.94155}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 4, "repeat": 2, "sec": 2.07299}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 5, "repeat": 2, "sec": 2.11329}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 6, "repeat": 2, "sec": 1.71285}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 7, "repeat": 2, "sec": 1.47675}
-{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 8, "repeat": 2, "sec": 1.26114}
-{"type": "serial", "n": 2000, "p": 0.010005, "repeat": 0, "sec": 9.71667}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 2, "repeat": 0, "sec": 9.7243}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 3, "repeat": 0, "sec": 5.16969}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 4, "repeat": 0, "sec": 3.68282}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 5, "repeat": 0, "sec": 2.75335}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 6, "repeat": 0, "sec": 2.8682}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 7, "repeat": 0, "sec": 2.56605}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 8, "repeat": 0, "sec": 2.22901}
-{"type": "serial", "n": 2000, "p": 0.010005, "repeat": 1, "sec": 9.79504}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 2, "repeat": 1, "sec": 9.68855}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 3, "repeat": 1, "sec": 5.18353}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 4, "repeat": 1, "sec": 3.5463}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 5, "repeat": 1, "sec": 2.73698}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 6, "repeat": 1, "sec": 2.7612}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 7, "repeat": 1, "sec": 2.5062}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 8, "repeat": 1, "sec": 2.22199}
-{"type": "serial", "n": 2000, "p": 0.010005, "repeat": 2, "sec": 9.70041}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 2, "repeat": 2, "sec": 9.8683}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 3, "repeat": 2, "sec": 5.52939}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 4, "repeat": 2, "sec": 3.55133}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 5, "repeat": 2, "sec": 2.7356}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 6, "repeat": 2, "sec": 2.86078}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 7, "repeat": 2, "sec": 2.50192}
-{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 8, "repeat": 2, "sec": 2.22857}
-{"type": "serial", "n": 2500, "p": 0.0080032, "repeat": 0, "sec": 15.2133}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 2, "repeat": 0, "sec": 15.073}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 3, "repeat": 0, "sec": 7.9597}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 4, "repeat": 0, "sec": 5.5377}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 5, "repeat": 0, "sec": 4.24495}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 6, "repeat": 0, "sec": 4.19391}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 7, "repeat": 0, "sec": 3.92742}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 8, "repeat": 0, "sec": 3.42191}
-{"type": "serial", "n": 2500, "p": 0.0080032, "repeat": 1, "sec": 15.0978}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 2, "repeat": 1, "sec": 15.2838}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 3, "repeat": 1, "sec": 7.99343}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 4, "repeat": 1, "sec": 5.48736}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 5, "repeat": 1, "sec": 4.24786}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 6, "repeat": 1, "sec": 4.27995}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 7, "repeat": 1, "sec": 3.85083}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 8, "repeat": 1, "sec": 3.44269}
-{"type": "serial", "n": 2500, "p": 0.0080032, "repeat": 2, "sec": 15.077}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 2, "repeat": 2, "sec": 15.2801}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 3, "repeat": 2, "sec": 8.04355}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 4, "repeat": 2, "sec": 5.51562}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 5, "repeat": 2, "sec": 4.25673}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 6, "repeat": 2, "sec": 4.21541}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 7, "repeat": 2, "sec": 4.46997}
-{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 8, "repeat": 2, "sec": 3.9401}
-{"type": "serial", "n": 3000, "p": 0.00666889, "repeat": 0, "sec": 21.6144}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 2, "repeat": 0, "sec": 21.8953}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 3, "repeat": 0, "sec": 21.9271}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 4, "repeat": 0, "sec": 8.30948}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 5, "repeat": 0, "sec": 6.16629}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 6, "repeat": 0, "sec": 6.16613}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 7, "repeat": 0, "sec": 5.96541}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 8, "repeat": 0, "sec": 5.64919}
-{"type": "serial", "n": 3000, "p": 0.00666889, "repeat": 1, "sec": 21.7062}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 2, "repeat": 1, "sec": 21.8506}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 3, "repeat": 1, "sec": 21.9366}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 4, "repeat": 1, "sec": 7.96985}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 5, "repeat": 1, "sec": 7.96201}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 6, "repeat": 1, "sec": 6.14858}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 7, "repeat": 1, "sec": 5.9113}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 8, "repeat": 1, "sec": 5.66697}
-{"type": "serial", "n": 3000, "p": 0.00666889, "repeat": 2, "sec": 22.4188}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 2, "repeat": 2, "sec": 22.06}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 3, "repeat": 2, "sec": 21.9282}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 4, "repeat": 2, "sec": 8.67133}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 5, "repeat": 2, "sec": 7.95948}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 6, "repeat": 2, "sec": 6.15875}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 7, "repeat": 2, "sec": 6.52011}
-{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 8, "repeat": 2, "sec": 5.75156}
-{"type": "serial", "n": 3500, "p": 0.00571592, "repeat": 0, "sec": 29.9975}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 2, "repeat": 0, "sec": 30.0421}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 3, "repeat": 0, "sec": 16.1609}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 4, "repeat": 0, "sec": 10.9585}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 5, "repeat": 0, "sec": 9.32507}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 6, "repeat": 0, "sec": 8.47087}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 7, "repeat": 0, "sec": 8.41482}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 8, "repeat": 0, "sec": 7.52337}
-{"type": "serial", "n": 3500, "p": 0.00571592, "repeat": 1, "sec": 30.0933}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 2, "repeat": 1, "sec": 30.0805}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 3, "repeat": 1, "sec": 30.1856}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 4, "repeat": 1, "sec": 15.9987}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 5, "repeat": 1, "sec": 11.1044}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 6, "repeat": 1, "sec": 8.47705}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 7, "repeat": 1, "sec": 8.94466}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 8, "repeat": 1, "sec": 7.70074}
-{"type": "serial", "n": 3500, "p": 0.00571592, "repeat": 2, "sec": 30.0444}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 2, "repeat": 2, "sec": 30.1257}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 3, "repeat": 2, "sec": 29.9155}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 4, "repeat": 2, "sec": 10.9954}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 5, "repeat": 2, "sec": 10.9214}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 6, "repeat": 2, "sec": 8.44676}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 7, "repeat": 2, "sec": 8.26324}
-{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 8, "repeat": 2, "sec": 7.69366}
-{"type": "serial", "n": 4000, "p": 0.00500125, "repeat": 0, "sec": 40.796}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 2, "repeat": 0, "sec": 40.7885}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 3, "repeat": 0, "sec": 41.2396}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 4, "repeat": 0, "sec": 15.1114}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 5, "repeat": 0, "sec": 14.9224}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 6, "repeat": 0, "sec": 12.1743}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 7, "repeat": 0, "sec": 11.5296}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 8, "repeat": 0, "sec": 10.1332}
-{"type": "serial", "n": 4000, "p": 0.00500125, "repeat": 1, "sec": 40.7294}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 2, "repeat": 1, "sec": 40.7166}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 3, "repeat": 1, "sec": 40.7755}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 4, "repeat": 1, "sec": 21.7896}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 5, "repeat": 1, "sec": 14.8952}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 6, "repeat": 1, "sec": 12.0008}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 7, "repeat": 1, "sec": 11.4042}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 8, "repeat": 1, "sec": 9.93502}
-{"type": "serial", "n": 4000, "p": 0.00500125, "repeat": 2, "sec": 41.2765}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 2, "repeat": 2, "sec": 41.5981}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 3, "repeat": 2, "sec": 41.4917}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 4, "repeat": 2, "sec": 15.0396}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 5, "repeat": 2, "sec": 14.8749}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 6, "repeat": 2, "sec": 11.9041}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 7, "repeat": 2, "sec": 11.3577}
-{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 8, "repeat": 2, "sec": 10.399}
-{"type": "serial", "n": 4500, "p": 0.00444543, "repeat": 0, "sec": 52.3827}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 2, "repeat": 0, "sec": 52.3936}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 3, "repeat": 0, "sec": 52.4539}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 4, "repeat": 0, "sec": 19.4526}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 5, "repeat": 0, "sec": 19.4523}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 6, "repeat": 0, "sec": 15.2508}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 7, "repeat": 0, "sec": 14.1795}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 8, "repeat": 0, "sec": 12.9796}
-{"type": "serial", "n": 4500, "p": 0.00444543, "repeat": 1, "sec": 52.3935}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 2, "repeat": 1, "sec": 52.225}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 3, "repeat": 1, "sec": 52.3153}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 4, "repeat": 1, "sec": 27.6947}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 5, "repeat": 1, "sec": 19.1192}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 6, "repeat": 1, "sec": 15.7867}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 7, "repeat": 1, "sec": 13.8399}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 8, "repeat": 1, "sec": 12.6404}
-{"type": "serial", "n": 4500, "p": 0.00444543, "repeat": 2, "sec": 52.115}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 2, "repeat": 2, "sec": 52.3641}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 3, "repeat": 2, "sec": 52.1114}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 4, "repeat": 2, "sec": 19.06}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 5, "repeat": 2, "sec": 19.0549}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 6, "repeat": 2, "sec": 14.7452}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 7, "repeat": 2, "sec": 14.9449}
-{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 8, "repeat": 2, "sec": 13.2489}
-{"type": "serial", "n": 5000, "p": 0.0040008, "repeat": 0, "sec": 66.2598}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 2, "repeat": 0, "sec": 65.6317}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 3, "repeat": 0, "sec": 34.538}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 4, "repeat": 0, "sec": 34.5696}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 5, "repeat": 0, "sec": 23.8525}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 6, "repeat": 0, "sec": 18.4807}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 7, "repeat": 0, "sec": 18.3395}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 8, "repeat": 0, "sec": 16.085}
-{"type": "serial", "n": 5000, "p": 0.0040008, "repeat": 1, "sec": 65.2354}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 2, "repeat": 1, "sec": 65.3723}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 3, "repeat": 1, "sec": 65.3288}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 4, "repeat": 1, "sec": 23.9353}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 5, "repeat": 1, "sec": 23.886}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 6, "repeat": 1, "sec": 19.1218}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 7, "repeat": 1, "sec": 17.6532}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 8, "repeat": 1, "sec": 16.1903}
-{"type": "serial", "n": 5000, "p": 0.0040008, "repeat": 2, "sec": 66.6241}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 2, "repeat": 2, "sec": 66.3305}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 3, "repeat": 2, "sec": 66.3726}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 4, "repeat": 2, "sec": 23.8402}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 5, "repeat": 2, "sec": 23.8465}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 6, "repeat": 2, "sec": 18.4731}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 7, "repeat": 2, "sec": 17.966}
-{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 8, "repeat": 2, "sec": 15.8637}
+{"type": "serial", "n": 500, "p": 0.0400802, "repeat": 0, "sec": 0.670891}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 2, "repeat": 0, "sec": 0.360089}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 3, "repeat": 0, "sec": 0.246948}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 4, "repeat": 0, "sec": 0.188865}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 5, "repeat": 0, "sec": 0.211168}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 6, "repeat": 0, "sec": 0.178852}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 7, "repeat": 0, "sec": 0.153184}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 8, "repeat": 0, "sec": 0.135295}
+{"type": "serial", "n": 500, "p": 0.0400802, "repeat": 1, "sec": 0.693228}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 2, "repeat": 1, "sec": 0.353408}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 3, "repeat": 1, "sec": 0.246189}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 4, "repeat": 1, "sec": 0.188616}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 5, "repeat": 1, "sec": 0.208833}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 6, "repeat": 1, "sec": 0.176902}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 7, "repeat": 1, "sec": 0.152896}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 8, "repeat": 1, "sec": 0.134931}
+{"type": "serial", "n": 500, "p": 0.0400802, "repeat": 2, "sec": 0.673352}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 2, "repeat": 2, "sec": 0.35779}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 3, "repeat": 2, "sec": 0.246177}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 4, "repeat": 2, "sec": 0.189701}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 5, "repeat": 2, "sec": 0.209848}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 6, "repeat": 2, "sec": 0.17855}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 7, "repeat": 2, "sec": 0.154258}
+{"type": "parallel", "n": 500, "p": 0.0400802, "num_threads": 8, "repeat": 2, "sec": 0.136406}
+{"type": "serial", "n": 1000, "p": 0.02002, "repeat": 0, "sec": 2.61991}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 2, "repeat": 0, "sec": 1.40891}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 3, "repeat": 0, "sec": 0.96495}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 4, "repeat": 0, "sec": 0.74388}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 5, "repeat": 0, "sec": 0.818761}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 6, "repeat": 0, "sec": 0.692884}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 7, "repeat": 0, "sec": 0.599637}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 8, "repeat": 0, "sec": 0.527436}
+{"type": "serial", "n": 1000, "p": 0.02002, "repeat": 1, "sec": 2.58989}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 2, "repeat": 1, "sec": 1.3817}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 3, "repeat": 1, "sec": 0.954358}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 4, "repeat": 1, "sec": 0.733538}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 5, "repeat": 1, "sec": 0.804954}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 6, "repeat": 1, "sec": 0.683727}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 7, "repeat": 1, "sec": 0.591888}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 8, "repeat": 1, "sec": 0.523167}
+{"type": "serial", "n": 1000, "p": 0.02002, "repeat": 2, "sec": 2.69833}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 2, "repeat": 2, "sec": 1.39902}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 3, "repeat": 2, "sec": 0.963583}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 4, "repeat": 2, "sec": 0.743273}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 5, "repeat": 2, "sec": 0.805353}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 6, "repeat": 2, "sec": 0.694098}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 7, "repeat": 2, "sec": 0.599563}
+{"type": "parallel", "n": 1000, "p": 0.02002, "num_threads": 8, "repeat": 2, "sec": 0.54609}
+{"type": "serial", "n": 1500, "p": 0.0133422, "repeat": 0, "sec": 5.53239}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 2, "repeat": 0, "sec": 2.98726}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 3, "repeat": 0, "sec": 2.05944}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 4, "repeat": 0, "sec": 1.56818}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 5, "repeat": 0, "sec": 1.62352}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 6, "repeat": 0, "sec": 1.44598}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 7, "repeat": 0, "sec": 1.27412}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 8, "repeat": 0, "sec": 1.13257}
+{"type": "serial", "n": 1500, "p": 0.0133422, "repeat": 1, "sec": 5.5442}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 2, "repeat": 1, "sec": 2.95634}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 3, "repeat": 1, "sec": 2.03375}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 4, "repeat": 1, "sec": 1.57611}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 5, "repeat": 1, "sec": 1.68211}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 6, "repeat": 1, "sec": 1.46837}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 7, "repeat": 1, "sec": 1.28258}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 8, "repeat": 1, "sec": 1.1264}
+{"type": "serial", "n": 1500, "p": 0.0133422, "repeat": 2, "sec": 5.62341}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 2, "repeat": 2, "sec": 2.94834}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 3, "repeat": 2, "sec": 2.02992}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 4, "repeat": 2, "sec": 1.57571}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 5, "repeat": 2, "sec": 1.73803}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 6, "repeat": 2, "sec": 1.44988}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 7, "repeat": 2, "sec": 1.28232}
+{"type": "parallel", "n": 1500, "p": 0.0133422, "num_threads": 8, "repeat": 2, "sec": 1.12389}
+{"type": "serial", "n": 2000, "p": 0.010005, "repeat": 0, "sec": 9.71207}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 2, "repeat": 0, "sec": 5.19839}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 3, "repeat": 0, "sec": 3.57234}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 4, "repeat": 0, "sec": 2.75998}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 5, "repeat": 0, "sec": 2.72858}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 6, "repeat": 0, "sec": 2.59379}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 7, "repeat": 0, "sec": 2.23427}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 8, "repeat": 0, "sec": 1.98464}
+{"type": "serial", "n": 2000, "p": 0.010005, "repeat": 1, "sec": 9.72294}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 2, "repeat": 1, "sec": 5.16663}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 3, "repeat": 1, "sec": 3.56484}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 4, "repeat": 1, "sec": 2.75546}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 5, "repeat": 1, "sec": 3.04515}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 6, "repeat": 1, "sec": 2.54088}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 7, "repeat": 1, "sec": 2.21871}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 8, "repeat": 1, "sec": 1.975}
+{"type": "serial", "n": 2000, "p": 0.010005, "repeat": 2, "sec": 9.6967}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 2, "repeat": 2, "sec": 5.18595}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 3, "repeat": 2, "sec": 3.56593}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 4, "repeat": 2, "sec": 2.7585}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 5, "repeat": 2, "sec": 2.99742}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 6, "repeat": 2, "sec": 2.47666}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 7, "repeat": 2, "sec": 2.21028}
+{"type": "parallel", "n": 2000, "p": 0.010005, "num_threads": 8, "repeat": 2, "sec": 1.97274}
+{"type": "serial", "n": 2500, "p": 0.0080032, "repeat": 0, "sec": 15.0376}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 2, "repeat": 0, "sec": 8.01376}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 3, "repeat": 0, "sec": 5.52598}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 4, "repeat": 0, "sec": 4.26429}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 5, "repeat": 0, "sec": 4.45967}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 6, "repeat": 0, "sec": 3.97811}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 7, "repeat": 0, "sec": 3.43152}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 8, "repeat": 0, "sec": 3.05146}
+{"type": "serial", "n": 2500, "p": 0.0080032, "repeat": 1, "sec": 14.9836}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 2, "repeat": 1, "sec": 8.01676}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 3, "repeat": 1, "sec": 5.52426}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 4, "repeat": 1, "sec": 4.26156}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 5, "repeat": 1, "sec": 4.60361}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 6, "repeat": 1, "sec": 3.97129}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 7, "repeat": 1, "sec": 3.44219}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 8, "repeat": 1, "sec": 3.04625}
+{"type": "serial", "n": 2500, "p": 0.0080032, "repeat": 2, "sec": 15.0414}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 2, "repeat": 2, "sec": 8.07294}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 3, "repeat": 2, "sec": 5.5356}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 4, "repeat": 2, "sec": 4.27516}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 5, "repeat": 2, "sec": 4.6174}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 6, "repeat": 2, "sec": 3.99916}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 7, "repeat": 2, "sec": 3.44714}
+{"type": "parallel", "n": 2500, "p": 0.0080032, "num_threads": 8, "repeat": 2, "sec": 3.0481}
+{"type": "serial", "n": 3000, "p": 0.00666889, "repeat": 0, "sec": 21.6448}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 2, "repeat": 0, "sec": 11.578}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 3, "repeat": 0, "sec": 7.94693}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 4, "repeat": 0, "sec": 6.14032}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 5, "repeat": 0, "sec": 6.20455}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 6, "repeat": 0, "sec": 5.59094}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 7, "repeat": 0, "sec": 4.93218}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 8, "repeat": 0, "sec": 4.40166}
+{"type": "serial", "n": 3000, "p": 0.00666889, "repeat": 1, "sec": 21.6841}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 2, "repeat": 1, "sec": 11.626}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 3, "repeat": 1, "sec": 8.00055}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 4, "repeat": 1, "sec": 6.16921}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 5, "repeat": 1, "sec": 6.12367}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 6, "repeat": 1, "sec": 5.7206}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 7, "repeat": 1, "sec": 4.9355}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 8, "repeat": 1, "sec": 4.39303}
+{"type": "serial", "n": 3000, "p": 0.00666889, "repeat": 2, "sec": 21.6859}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 2, "repeat": 2, "sec": 11.6352}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 3, "repeat": 2, "sec": 8.00998}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 4, "repeat": 2, "sec": 6.1875}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 5, "repeat": 2, "sec": 6.60191}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 6, "repeat": 2, "sec": 5.56932}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 7, "repeat": 2, "sec": 4.98157}
+{"type": "parallel", "n": 3000, "p": 0.00666889, "num_threads": 8, "repeat": 2, "sec": 4.42219}
+{"type": "serial", "n": 3500, "p": 0.00571592, "repeat": 0, "sec": 29.8138}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 2, "repeat": 0, "sec": 15.906}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 3, "repeat": 0, "sec": 10.9975}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 4, "repeat": 0, "sec": 9.00107}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 5, "repeat": 0, "sec": 8.55263}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 6, "repeat": 0, "sec": 7.63556}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 7, "repeat": 0, "sec": 6.72734}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 8, "repeat": 0, "sec": 6.04441}
+{"type": "serial", "n": 3500, "p": 0.00571592, "repeat": 1, "sec": 29.9011}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 2, "repeat": 1, "sec": 15.9023}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 3, "repeat": 1, "sec": 10.948}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 4, "repeat": 1, "sec": 8.45815}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 5, "repeat": 1, "sec": 7.9031}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 6, "repeat": 1, "sec": 7.87655}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 7, "repeat": 1, "sec": 6.83124}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 8, "repeat": 1, "sec": 6.05124}
+{"type": "serial", "n": 3500, "p": 0.00571592, "repeat": 2, "sec": 29.822}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 2, "repeat": 2, "sec": 15.9421}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 3, "repeat": 2, "sec": 10.9809}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 4, "repeat": 2, "sec": 8.49199}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 5, "repeat": 2, "sec": 8.4658}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 6, "repeat": 2, "sec": 7.86131}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 7, "repeat": 2, "sec": 6.73372}
+{"type": "parallel", "n": 3500, "p": 0.00571592, "num_threads": 8, "repeat": 2, "sec": 6.05907}
+{"type": "serial", "n": 4000, "p": 0.00500125, "repeat": 0, "sec": 40.424}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 2, "repeat": 0, "sec": 21.6108}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 3, "repeat": 0, "sec": 16.2338}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 4, "repeat": 0, "sec": 11.5223}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 5, "repeat": 0, "sec": 11.4076}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 6, "repeat": 0, "sec": 10.6358}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 7, "repeat": 0, "sec": 9.26275}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 8, "repeat": 0, "sec": 8.20079}
+{"type": "serial", "n": 4000, "p": 0.00500125, "repeat": 1, "sec": 40.4852}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 2, "repeat": 1, "sec": 21.8325}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 3, "repeat": 1, "sec": 15.2878}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 4, "repeat": 1, "sec": 11.7383}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 5, "repeat": 1, "sec": 11.4375}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 6, "repeat": 1, "sec": 10.2434}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 7, "repeat": 1, "sec": 9.24235}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 8, "repeat": 1, "sec": 8.20947}
+{"type": "serial", "n": 4000, "p": 0.00500125, "repeat": 2, "sec": 40.5968}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 2, "repeat": 2, "sec": 21.7062}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 3, "repeat": 2, "sec": 14.9888}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 4, "repeat": 2, "sec": 13.7836}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 5, "repeat": 2, "sec": 11.7111}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 6, "repeat": 2, "sec": 10.6301}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 7, "repeat": 2, "sec": 9.27679}
+{"type": "parallel", "n": 4000, "p": 0.00500125, "num_threads": 8, "repeat": 2, "sec": 8.21117}
+{"type": "serial", "n": 4500, "p": 0.00444543, "repeat": 0, "sec": 52.0571}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 2, "repeat": 0, "sec": 27.8175}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 3, "repeat": 0, "sec": 19.1851}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 4, "repeat": 0, "sec": 14.8398}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 5, "repeat": 0, "sec": 14.9528}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 6, "repeat": 0, "sec": 13.4588}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 7, "repeat": 0, "sec": 11.9011}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 8, "repeat": 0, "sec": 10.5686}
+{"type": "serial", "n": 4500, "p": 0.00444543, "repeat": 1, "sec": 52.0392}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 2, "repeat": 1, "sec": 27.8423}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 3, "repeat": 1, "sec": 19.2212}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 4, "repeat": 1, "sec": 18.8534}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 5, "repeat": 1, "sec": 14.9158}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 6, "repeat": 1, "sec": 13.1903}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 7, "repeat": 1, "sec": 11.903}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 8, "repeat": 1, "sec": 10.5779}
+{"type": "serial", "n": 4500, "p": 0.00444543, "repeat": 2, "sec": 52.3038}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 2, "repeat": 2, "sec": 27.7268}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 3, "repeat": 2, "sec": 19.1038}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 4, "repeat": 2, "sec": 14.798}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 5, "repeat": 2, "sec": 14.6795}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 6, "repeat": 2, "sec": 13.2328}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 7, "repeat": 2, "sec": 11.8194}
+{"type": "parallel", "n": 4500, "p": 0.00444543, "num_threads": 8, "repeat": 2, "sec": 10.5948}
+{"type": "serial", "n": 5000, "p": 0.0040008, "repeat": 0, "sec": 65.0339}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 2, "repeat": 0, "sec": 34.7371}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 3, "repeat": 0, "sec": 24.0042}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 4, "repeat": 0, "sec": 21.3514}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 5, "repeat": 0, "sec": 17.566}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 6, "repeat": 0, "sec": 16.0702}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 7, "repeat": 0, "sec": 14.8139}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 8, "repeat": 0, "sec": 13.2756}
+{"type": "serial", "n": 5000, "p": 0.0040008, "repeat": 1, "sec": 65.2758}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 2, "repeat": 1, "sec": 34.7856}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 3, "repeat": 1, "sec": 24.054}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 4, "repeat": 1, "sec": 18.6264}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 5, "repeat": 1, "sec": 17.9702}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 6, "repeat": 1, "sec": 16.1195}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 7, "repeat": 1, "sec": 14.8693}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 8, "repeat": 1, "sec": 13.2959}
+{"type": "serial", "n": 5000, "p": 0.0040008, "repeat": 2, "sec": 65.1839}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 2, "repeat": 2, "sec": 34.9156}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 3, "repeat": 2, "sec": 24.1093}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 4, "repeat": 2, "sec": 18.8378}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 5, "repeat": 2, "sec": 18.688}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 6, "repeat": 2, "sec": 16.1358}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 7, "repeat": 2, "sec": 14.6294}
+{"type": "parallel", "n": 5000, "p": 0.0040008, "num_threads": 8, "repeat": 2, "sec": 13.3485}
