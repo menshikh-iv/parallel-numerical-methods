@@ -44,19 +44,23 @@ void print_graph(map<int, vector<int>> graph){
 
 struct sssp_retval{
 	map<int, vector<int>> pred;
-	map<int, int> sigma;
+	int* sigma;
 	stack<int> _s;
 };
 
 sssp_retval singe_source_shortes_paths(map<int, vector<int>> graph, int s){
+	int n = graph.size();
+
+	int* dist = new int[n];
+	int* sigma = new int[n];
 	map<int, vector<int>> pred;
-	map<int, int> dist;
-	map<int, int> sigma;
+
+	fill_n(dist, n, INT_MAX);
+	fill_n(sigma, n, 0);
+
 
 	for (int i = 0; i < graph.size(); i++){
 		pred.insert(pair<int, vector<int>>(i, vector<int>()));
-		dist.insert(pair<int, int>(i, INT_MAX));
-		sigma.insert(pair<int, int>(i, 0));
 	}
 
 	dist[s] = 0;
@@ -86,14 +90,14 @@ sssp_retval singe_source_shortes_paths(map<int, vector<int>> graph, int s){
 	res.pred = pred;
 	res.sigma = sigma;
 	res._s = _s;
+
+	delete[] dist;
 	return res;
 }
 
-void accumulation(map<int, vector<int>> graph, int s, sssp_retval d, map<int, float>& btw){
-	map<int, float> delta;
-	for (int i = 0; i < graph.size(); i++){
-		delta.insert(pair<int, float>(i, 0.));
-	}
+void accumulation(int n, int s, sssp_retval d, float* btw){
+	float* delta = new float[n];
+	fill_n(delta, n, 0.);
 
 	while (!d._s.empty()){
 		int w = d._s.top();
@@ -107,30 +111,44 @@ void accumulation(map<int, vector<int>> graph, int s, sssp_retval d, map<int, fl
             btw[w] += delta[w];
 		}
 	}
+	delete[] delta;
 }
 
 
 int main(){
 	srand (static_cast <unsigned> (time(0)));
 
-	int n = 200;
-	float p = (n * 20.) / (n * (n - 1) * 0.5);
+	float sssp_sec = 0.;
+	float acc_sec = 0.;
+
+	int n = 1000;
+	float p = (n * 10.) / (n * (n - 1) * 0.5);
 
 	auto graph = erdos_renyi_graph(n, p);
 	//print_graph(graph);
 
-	map<int, float> btw;
-	for (int i = 0; i < graph.size(); i++){
-		btw.insert(pair<int, int>(i, 0.));
-	}
+	float* btw = new float[n];
+	fill_n(btw, n, 0.);
 
-	for (int s = 0; s < graph.size(); s++){
-		const sssp_retval& rv = singe_source_shortes_paths(graph, s);
-		accumulation(graph, s, rv, btw);
+	for (int s = 0; s < n; s++){
+		struct timeval start_s, end_s;
+
+        gettimeofday(&start_s, NULL);
+		sssp_retval rv = singe_source_shortes_paths(graph, s);
+		gettimeofday(&end_s, NULL);
+		sssp_sec += ((end_s.tv_sec  - start_s.tv_sec) * 1000000u + end_s.tv_usec - start_s.tv_usec);
+
+		gettimeofday(&start_s, NULL);
+		accumulation(n, s, rv, btw);
+		gettimeofday(&end_s, NULL);
+		acc_sec += ((end_s.tv_sec  - start_s.tv_sec) * 1000000u + end_s.tv_usec - start_s.tv_usec);
+
 	}
-	
+	/*
 	for (auto el: btw){
 		cout << el.first << " - " << el.second / 2. << endl;
-	}
+	}*/
+
+	cout << "sssp_sec: "<< sssp_sec / 1.e6 << " acc_sec: "<< acc_sec / 1.e6 << endl;
 	return 0;
 }
