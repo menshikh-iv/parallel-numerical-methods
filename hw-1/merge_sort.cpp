@@ -125,12 +125,11 @@ void merge_sort_parallel(int* arr, int size, int threads, int* tmp){
 
 int main(){
     omp_set_nested(1);
-    omp_set_dynamic(1);
 
     for (int exponent = 8; exponent <= 28; exponent++){
         int n = (1 << exponent);
 
-        for (int repeat = 1; repeat <= 5; repeat++){
+        for (int repeat = 0; repeat < 3; repeat++){
             int* arr_canonical = create_random_array(n);
             int* arr_s = new int[n];
             int* arr_p = new int[n];
@@ -161,6 +160,7 @@ int main(){
 
 
             for (int num_threads = 2; num_threads <= 8; num_threads++){
+                omp_set_dynamic(0);
                 omp_set_num_threads(num_threads);
 
                 for (int i = 0; i < n; i++){
