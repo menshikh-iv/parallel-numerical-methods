@@ -10,7 +10,7 @@ double  f(double* x, int idx){
 	i2 = cond ? (idx - 1): (idx + 1);
 	double fst = sign * x[i1] * x[i2];
 	double snd = (-1) * sign * x[idx] + 1. / (x[(idx + 6) % 10] * x[(idx + 6) % 10] + 
-                                       		  x[(idx + 7) % 10] * x[(idx + 7) % 10] + 1.);
+											  x[(idx + 7) % 10] * x[(idx + 7) % 10] + 1.);
 
 	return fst + snd;
 }
@@ -37,7 +37,7 @@ int main(){
 		y_c_curr[i] = y_c_prev[i] + h * f(y_c_prev, i);
 		y_p_next[i] = y_c_curr[i] + h * 2.0 * f(y_c_curr, i);
 		
-    	cout << y_c_prev[i] << "\t";
+		cout << y_c_prev[i] << "\t";
 	}
 	cout << endl;
 	
@@ -60,13 +60,13 @@ int main(){
 				}
 				if (omp_get_thread_num() == 0){
 					cout << y_c_curr[i] << "\t";
-	        		y_p_next[i] = y_c_prev[i] + h * 2.0 * f(y_p_next, i);
-	        	}
-	        	if (omp_get_thread_num() == 1){
-	        	double to_prev = y_c_curr[i];
-	        	y_c_curr[i] = y_c_curr[i] + h * 0.5 * (f(y_c_prev, i) + f(y_p_curr, i));
-	        	y_c_prev[i] = to_prev;
-	        	}
+					y_p_next[i] = y_c_prev[i] + h * 2.0 * f(y_p_next, i);
+				}
+				if (omp_get_thread_num() == 1){
+					double to_prev = y_c_curr[i];
+					y_c_curr[i] = y_c_curr[i] + h * 0.5 * (f(y_c_prev, i) + f(y_p_curr, i));
+					y_c_prev[i] = to_prev;
+				}
 			}
 		}
 		cout << endl;
